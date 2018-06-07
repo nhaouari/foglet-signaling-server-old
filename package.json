@@ -1,0 +1,47 @@
+{
+  "name": "foglet-signaling-server",
+  "version": "0.3.4",
+  "description": "It's a simple singaling server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhaouari/foglet-signaling-server.git"
+  },
+  "keywords": [
+    "foglet",
+    "signaling server",
+    "fog computing",
+    "WebRTC",
+    "Spray"
+  ],
+  "author": "Anraud Grall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhaouari/foglet-signaling-server/issues"
+  },
+  "homepage": "https://github.com/nhaouari/foglet-signaling-server#README",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "lru-cache": "^4.1.2",
+    "socket.io": "^2.1.0",
+    "path": "*",
+    "foglet-signaling-server": "*",
+    "fs": "*",
+    "twilio": "*",
+    "http": "*"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "env": [
+      "node",
+      "jest"
+    ]
+  }
+}
